@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board {
+    width: 80%;
+    height: 500px;
+    border: 1px solid #333;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.moon {
+    position: absolute;
+    top: 50px;
+    width: 250px;
+    right: 100px;
+    animation: moon-animation 5s infinite alternate;
+}
+
+.spikes {
+    position: absolute;   
+    bottom: 0;
+    width: 40px;
+    animation: spikes-animation 2s infinite linear;
+}
+
+.person {
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+}
+
+.jump {
+    animation: jump 500ms ease-out;
+}
+
+@keyframes moon-animation {
+    from {
+        top: 100px;
+    }
+
+    to {
+        bottom: 900px;
+    }
+}
+
+@keyframes spikes-animation {
+    from {
+        right: -75px;
+    }
+
+    to {
+        right: 220%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 100px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
