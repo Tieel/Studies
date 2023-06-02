@@ -1,0 +1,20 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Cenas","order":10,"path":"folders/Cenas.yy",},
+    {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"Room1","order":1,"path":"rooms/Room1/Room1.yy",},
+    {"name":"sFundo","order":7,"path":"sprites/sFundo/sFundo.yy",},
+    {"name":"Room4","order":3,"path":"rooms/Room4/Room4.yy",},
+    {"name":"sPlayerCorre","order":6,"path":"sprites/sPlayerCorre/sPlayerCorre.yy",},
+    {"name":"sPlayer","order":4,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"Room3","order":2,"path":"rooms/Room3/Room3.yy",},
+    {"name":"oPlayer","order":2,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"sDemonEyes","order":1,"path":"sprites/sDemonEyes/sDemonEyes.yy",},
+    {"name":"oDemonEyesMov","order":3,"path":"objects/oDemonEyesMov/oDemonEyesMov.yy",},
+    {"name":"oDemonEyes","order":1,"path":"objects/oDemonEyes/oDemonEyes.yy",},
+    {"name":"Room5","order":4,"path":"rooms/Room5/Room5.yy",},
+  ],
+}
